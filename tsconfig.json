@@ -19,6 +19,9 @@
       "dom"
     ],
     "paths": {
+      "ng-star-rating": [
+        "dist/rating"
+      ],
       "rating": [
         "dist/rating"
       ],

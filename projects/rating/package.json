@@ -2,15 +2,15 @@
   "name": "ng-starrating",
   "version": "1.0.20",
   "peerDependencies": {
-    "@angular/common": "^9.0.1",
-    "@angular/core": "^9.0.1"
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/riteshgandhi/ng-star-rating"
+    "url": "https://github.com/khajegan/ng-star-rating"
   },
   "keywords": [
     "star",
@@ -34,5 +34,5 @@
   "contributors": [
     "Ritesh Gandhi <ritesh.j.gandhi@gmail.com> (https://github.com/riteshgandhi)"
   ],
-  "license": "MIT"  
+  "license": "MIT"
 }
