@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/ng-starrating",
-  "version": "14.0.2",
+  "version": "14.0.3",
   "description": "Angular 14, [![npm version](https://img.shields.io/badge/npm-v14.0.0-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/khajegan/ng-star-rating)",
   "main": "main.js",
   "scripts": {
