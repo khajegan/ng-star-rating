@@ -1,6 +1,6 @@
 # ng-starrating
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.20-brightgreen.svg)](https://www.npmjs.com/package/ng-starrating/v/1.0.20)
+[![npm version](https://img.shields.io/badge/npm-v8.19.2-brightgreen.svg)](https://www.npmjs.com/package/ng-starrating/v/1.0.20)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/riteshgandhi/ng-star-rating)
 
 Simple, highly Customizable and Responsive Star Rating Library built using Angular.
