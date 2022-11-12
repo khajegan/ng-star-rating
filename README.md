@@ -1,13 +1,11 @@
-# ng-starrating
+# ng-starrating (Angular 14.2.0)
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.20-brightgreen.svg)](https://www.npmjs.com/package/ng-starrating/v/1.0.20)
+[![npm version](https://img.shields.io/badge/npm-v14.0.0-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/riteshgandhi/ng-star-rating)
 
-Simple, highly Customizable and Responsive Star Rating Library built using Angular.
+Simple, highly Customizable and Responsive Star Rating Library built using Angular 14.2.0 And Rxjs 7.5.0
 
 For production, use the files from the `dist/` folder.
-
-[Demo](https://ng-starratingdemo.stackblitz.io/)
 
 Edge browser support: Import webcomponents bundle for Edge browser
 ```
@@ -25,7 +23,7 @@ Edge browser support: Import webcomponents bundle for Edge browser
 
 Use one of the following methods to add the Star Rating library to your project:
 
-- [Download ZIP](https://github.com/riteshgandhi/ng-star-rating/archive/master.zip)
+- [Download ZIP](https://github.com/khajegan/ng-star-rating/archive/refs/heads/master.zip)
 - `npm install ng-starrating`
 
 ## Usage
@@ -150,6 +148,8 @@ Star Rating uses [npm](https://www.npmjs.com/get-npm) to manage package dependen
 All changes should be committed to the files in `src/`.
 
 ## Changelog
+`v14.0.0 -  [2022-11-12]`
+- Compatible with Angular 14.2.0
 
 `v1.0.20 -  [2020-02-16]`
 - Added missing keywords and repository information

@@ -1,5 +1,5 @@
 {
-  "name": "ng-star-rating",
+  "name": "@khajegan/ng-starrating",
   "version": "14.0.0",
   "scripts": {
     "ng": "ng",
@@ -45,5 +45,21 @@
     "ts-node": "~8.3.0",
     "tslint": "^6.1.3",
     "typescript": "~4.6.4"
-  }
+  },
+  "description": "Angular 14, [![npm version](https://img.shields.io/badge/npm-v14.0.0-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/riteshgandhi/ng-star-rating)",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khajegan/ng-star-rating.git"
+  },
+  "keywords": [
+    "Angular 12",
+    "Star Rating"
+  ],
+  "author": "Amir Hossein Khajegan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khajegan/ng-star-rating/issues"
+  },
+  "homepage": "https://github.com/khajegan/ng-star-rating#readme"
 }
