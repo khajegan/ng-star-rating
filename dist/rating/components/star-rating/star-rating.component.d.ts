@@ -67,4 +67,3 @@ export declare class StarRatingComponent {
     static ɵfac: i0.ɵɵFactoryDeclaration<StarRatingComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<StarRatingComponent, "star-rating", never, { "checkedcolor": "checkedcolor"; "uncheckedcolor": "uncheckedcolor"; "value": "value"; "size": "size"; "readonly": "readonly"; "totalstars": "totalstars"; }, { "rate": "rate"; }, never, never, false>;
 }
-//# sourceMappingURL=star-rating.component.d.ts.map

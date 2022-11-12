@@ -6,4 +6,3 @@ export declare class RatingComponent implements OnInit {
     static ɵfac: i0.ɵɵFactoryDeclaration<RatingComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<RatingComponent, "lib-rating", never, {}, {}, never, never, false>;
 }
-//# sourceMappingURL=rating.component.d.ts.map

@@ -9,4 +9,3 @@ export declare class RatingModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<RatingModule, [typeof i1.RatingComponent, typeof i2.StarRatingComponent], [typeof i3.FormsModule, typeof i4.CommonModule], [typeof i2.StarRatingComponent]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<RatingModule>;
 }
-//# sourceMappingURL=rating.module.d.ts.map

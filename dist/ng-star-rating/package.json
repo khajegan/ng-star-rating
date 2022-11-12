@@ -1,7 +1,7 @@
 {
   "name": "@khajegan/ng-starrating",
-  "version": "14.0.4",
-  "description": "Angular 14, [![npm version](https://img.shields.io/badge/npm-v8.19.2-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/khajegan/ng-star-rating)",
+  "version": "14.0.5",
+  "description": "Angular 14 ng-starrating",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/khajegan/ng-star-rating.git"
   },
   "keywords": [
-    "Angular 12",
+    "Angular 14",
     "Angular",
     "Star Rating",
     "Rating"
