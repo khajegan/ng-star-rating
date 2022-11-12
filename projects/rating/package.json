@@ -1,6 +1,6 @@
 {
   "name": "ng-starrating",
-  "version": "1.0.20",
+  "version": "14.0.2",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
@@ -13,6 +13,7 @@
     "url": "https://github.com/khajegan/ng-star-rating"
   },
   "keywords": [
+    "Angular 14",
     "star",
     "rating",
     "starrating",
@@ -30,9 +31,6 @@
     "just-rating",
     "multi-star-rating"
   ],
-  "author": "Ritesh Gandhi",
-  "contributors": [
-    "Ritesh Gandhi <ritesh.j.gandhi@gmail.com> (https://github.com/riteshgandhi)"
-  ],
+  "author": "Amir Hossein Khajegan",
   "license": "MIT"
 }
