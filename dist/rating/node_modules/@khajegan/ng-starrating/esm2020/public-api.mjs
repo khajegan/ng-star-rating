@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of rating
+ */
+export * from './lib/rating.module';
+export * from './components/star-rating/star-rating.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL3JhdGluZy9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMscUJBQXFCLENBQUM7QUFDcEMsY0FBYyxnREFBZ0QsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgcmF0aW5nXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvcmF0aW5nLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL2NvbXBvbmVudHMvc3Rhci1yYXRpbmcvc3Rhci1yYXRpbmcuY29tcG9uZW50JztcbiJdfQ==

@@ -1,16 +1,17 @@
 {
-  "name": "ng-starrating",
+  "name": "@khajegan/ng-starrating",
   "version": "15.0.0",
   "peerDependencies": {
     "@angular/common": "^15.2.10",
     "@angular/core": "^15.2.10"
   },
   "dependencies": {
+    "@khajegan/ng-starrating": "^15.0.0",
     "tslib": "^2.3.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/khajegan/ng-star-rating"
+    "url": "git+https://github.com/khajegan/ng-star-rating.git"
   },
   "keywords": [
     "Angular 15",
@@ -52,5 +53,17 @@
       "default": "./fesm2020/ng-starrating.mjs"
     }
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "description": "[![npm version](https://img.shields.io/badge/npm-v8.19.2-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/riteshgandhi/ng-star-rating)",
+  "bugs": {
+    "url": "https://github.com/khajegan/ng-star-rating/issues"
+  },
+  "homepage": "https://github.com/khajegan/ng-star-rating#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
