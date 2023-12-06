@@ -32,5 +32,25 @@
     "multi-star-rating"
   ],
   "author": "Amir Hossein Khajegan",
-  "license": "MIT"
+  "license": "MIT",
+  "module": "fesm2015/ng-starrating.mjs",
+  "es2020": "fesm2020/ng-starrating.mjs",
+  "esm2020": "esm2020/ng-starrating.mjs",
+  "fesm2020": "fesm2020/ng-starrating.mjs",
+  "fesm2015": "fesm2015/ng-starrating.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ng-starrating.mjs",
+      "es2020": "./fesm2020/ng-starrating.mjs",
+      "es2015": "./fesm2015/ng-starrating.mjs",
+      "node": "./fesm2015/ng-starrating.mjs",
+      "default": "./fesm2020/ng-starrating.mjs"
+    }
+  },
+  "sideEffects": false
 }
