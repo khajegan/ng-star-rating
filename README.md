@@ -1,9 +1,9 @@
-# ng-starrating (Angular 15.2.10)
+# ng-starrating (Angular 16.2.12)
 
 [![npm version](https://img.shields.io/badge/npm-v8.19.2-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/riteshgandhi/ng-star-rating)
 
-Simple, highly Customizable and Responsive Star Rating Library built using Angular 15.2.10 And Rxjs 7.5.0
+Simple, highly Customizable and Responsive Star Rating Library built using Angular 16.2.12 And Rxjs 7.5.0
 
 For production, use the files from the `dist/` folder.
 

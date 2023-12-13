@@ -65,5 +65,5 @@ export declare class StarRatingComponent {
     private applyUnCheckedColorStyle;
     private generateRating;
     static ɵfac: i0.ɵɵFactoryDeclaration<StarRatingComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<StarRatingComponent, "star-rating", never, { "checkedcolor": "checkedcolor"; "uncheckedcolor": "uncheckedcolor"; "value": "value"; "size": "size"; "readonly": "readonly"; "totalstars": "totalstars"; }, { "rate": "rate"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<StarRatingComponent, "star-rating", never, { "checkedcolor": { "alias": "checkedcolor"; "required": false; }; "uncheckedcolor": { "alias": "uncheckedcolor"; "required": false; }; "value": { "alias": "value"; "required": false; }; "size": { "alias": "size"; "required": false; }; "readonly": { "alias": "readonly"; "required": false; }; "totalstars": { "alias": "totalstars"; "required": false; }; }, { "rate": "rate"; }, never, never, false, never>;
 }
