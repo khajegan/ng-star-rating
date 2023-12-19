@@ -1,9 +1,9 @@
 {
   "name": "@khajegan/ng-starrating",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "peerDependencies": {
-    "@angular/common": "^16.2.12",
-    "@angular/core": "^16.2.12"
+    "@angular/common": "^17.0.7",
+    "@angular/core": "^17.0.7"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -13,7 +13,10 @@
     "url": "git+https://github.com/khajegan/ng-star-rating.git"
   },
   "keywords": [
+    "Angular 14",
     "Angular 15",
+    "Angular 16",
+    "Angular 17",
     "star",
     "rating",
     "starrating",

@@ -8,21 +8,21 @@ class RatingComponent {
     constructor() { }
     ngOnInit() {
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: RatingComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.2.12", type: RatingComponent, selector: "lib-rating", ngImport: i0, template: `
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: RatingComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.7", type: RatingComponent, selector: "lib-rating", ngImport: i0, template: `
     <p>
       rating works!
     </p>
   `, isInline: true }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: RatingComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: RatingComponent, decorators: [{
             type: Component,
             args: [{ selector: 'lib-rating', template: `
     <p>
       rating works!
     </p>
   ` }]
-        }], ctorParameters: function () { return []; } });
+        }], ctorParameters: () => [] });
 
 class StarRatingComponent {
     static { this.VAR_CHECKED_COLOR = '--checkedColor'; }
@@ -274,13 +274,13 @@ class StarRatingComponent {
         });
         //}
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: StarRatingComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.2.12", type: StarRatingComponent, selector: "star-rating", inputs: { checkedcolor: "checkedcolor", uncheckedcolor: "uncheckedcolor", value: "value", size: "size", readonly: "readonly", totalstars: "totalstars" }, outputs: { rate: "rate" }, viewQueries: [{ propertyName: "mainElement", first: true, predicate: ["starMain"], descendants: true, static: true }], ngImport: i0, template: "<div #starMain>\n</div>", styles: [":root{--checkedColor: gold;--unCheckedColor: gray;--size: 24px;--halfWidth: 10px;--halfMargin: -20px}.star{cursor:pointer;color:var(--unCheckedColor);font-size:var(--size);width:var(--size);display:inline-block}.star:last-child{margin-right:0}.star:before{content:\"\\2605\"}.star.on{color:var(--checkedColor)}.star.half:after{content:\"\\2605\";color:var(--checkedColor);position:absolute;margin-left:var(--halfMargin);width:var(--halfWidth);overflow:hidden}\n"], encapsulation: i0.ViewEncapsulation.ShadowDom }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: StarRatingComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.0.7", type: StarRatingComponent, selector: "star-rating", inputs: { checkedcolor: "checkedcolor", uncheckedcolor: "uncheckedcolor", value: "value", size: "size", readonly: "readonly", totalstars: "totalstars" }, outputs: { rate: "rate" }, viewQueries: [{ propertyName: "mainElement", first: true, predicate: ["starMain"], descendants: true, static: true }], ngImport: i0, template: "<div #starMain>\n</div>", styles: [":root{--checkedColor: gold;--unCheckedColor: gray;--size: 24px;--halfWidth: 10px;--halfMargin: -20px}.star{cursor:pointer;color:var(--unCheckedColor);font-size:var(--size);width:var(--size);display:inline-block}.star:last-child{margin-right:0}.star:before{content:\"\\2605\"}.star.on{color:var(--checkedColor)}.star.half:after{content:\"\\2605\";color:var(--checkedColor);position:absolute;margin-left:var(--halfMargin);width:var(--halfWidth);overflow:hidden}\n"], encapsulation: i0.ViewEncapsulation.ShadowDom }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: StarRatingComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: StarRatingComponent, decorators: [{
             type: Component,
             args: [{ selector: 'star-rating', encapsulation: ViewEncapsulation.ShadowDom, template: "<div #starMain>\n</div>", styles: [":root{--checkedColor: gold;--unCheckedColor: gray;--size: 24px;--halfWidth: 10px;--halfMargin: -20px}.star{cursor:pointer;color:var(--unCheckedColor);font-size:var(--size);width:var(--size);display:inline-block}.star:last-child{margin-right:0}.star:before{content:\"\\2605\"}.star.on{color:var(--checkedColor)}.star.half:after{content:\"\\2605\";color:var(--checkedColor);position:absolute;margin-left:var(--halfMargin);width:var(--halfWidth);overflow:hidden}\n"] }]
-        }], ctorParameters: function () { return []; }, propDecorators: { mainElement: [{
+        }], ctorParameters: () => [], propDecorators: { mainElement: [{
                 type: ViewChild,
                 args: ['starMain', { static: true }]
             }], rate: [{
@@ -307,14 +307,14 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImpo
 
 class RatingModule {
     ngDoBootstrap() { }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: RatingModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
-    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "16.2.12", ngImport: i0, type: RatingModule, declarations: [RatingComponent,
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: RatingModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "17.0.7", ngImport: i0, type: RatingModule, declarations: [RatingComponent,
             StarRatingComponent], imports: [FormsModule,
             CommonModule], exports: [StarRatingComponent] }); }
-    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: RatingModule, imports: [FormsModule,
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: RatingModule, imports: [FormsModule,
             CommonModule] }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: RatingModule, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: RatingModule, decorators: [{
             type: NgModule,
             args: [{
                     imports: [

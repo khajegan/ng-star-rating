@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/ng-starrating",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -15,29 +15,30 @@
     "build:package": "npm run build:lib && npm run build:pack",
     "publish": "npm publish --access public",
     "clean": "rm -rf dist/ lib/",
+    "myScope": "npm init --scope=@khajegan",
     "myBuild": "cd projects/rating &&  sudo ng b --configuration production",
     "myPublish": "cd dist/rating && npm publish --access public"
   },
   "private": false,
   "dependencies": {
-    "@angular/animations": "^16.2.12",
-    "@angular/common": "^16.2.12",
-    "@angular/compiler": "^16.2.12",
-    "@angular/core": "^16.2.12",
-    "@angular/forms": "^16.2.12",
-    "@angular/platform-browser": "^16.2.12",
-    "@angular/platform-browser-dynamic": "^16.2.12",
-    "@angular/router": "^16.2.12",
+    "@angular/animations": "^17.0.7",
+    "@angular/common": "^17.0.7",
+    "@angular/compiler": "^17.0.7",
+    "@angular/core": "^17.0.7",
+    "@angular/forms": "^17.0.7",
+    "@angular/platform-browser": "^17.0.7",
+    "@angular/platform-browser-dynamic": "^17.0.7",
+    "@angular/router": "^17.0.7",
     "@khajegan/ng-starrating": "^16.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.13.3"
+    "zone.js": "~0.14.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.2.10",
-    "@angular/cli": "^16.2.10",
-    "@angular/compiler-cli": "^16.2.12",
-    "@angular/language-service": "^16.2.12",
+    "@angular-devkit/build-angular": "^17.0.7",
+    "@angular/cli": "^17.0.7",
+    "@angular/compiler-cli": "^17.0.7",
+    "@angular/language-service": "^17.0.7",
     "@types/jasmine": "~4.0.0",
     "@types/jasminewd2": "^2.0.10",
     "@types/node": "^12.19.7",
@@ -50,20 +51,23 @@
     "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "ng-packagr": "^16.2.3",
+    "ng-packagr": "^17.0.3",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "^6.1.3",
-    "typescript": "~4.9.5"
+    "typescript": "~5.2.2"
   },
-  "description": "Angular 16, [![npm version](https://img.shields.io/badge/npm-v14.0.0-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/khajegan/ng-star-rating)",
+  "description": "Angular 17, [![npm version](https://img.shields.io/badge/npm-v14.0.0-brightgreen.svg)](https://www.npmjs.com/package/@khajegan/ng-starrating) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/khajegan/ng-star-rating)",
   "main": "karma.conf.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khajegan/ng-star-rating.git"
   },
   "keywords": [
+    "Angular 14",
+    "Angular 15",
     "Angular 16",
+    "Angular 17",
     "Star Rating"
   ],
   "author": "Amir Hossein Khajegan",
