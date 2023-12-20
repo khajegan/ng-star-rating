@@ -15,7 +15,7 @@
     "build:package": "npm run build:lib && npm run build:pack",
     "publish": "npm publish --access public",
     "clean": "rm -rf dist/ lib/",
-    "myScope": "npm init --scope=@khajegan",
+    "myScope": "cd projects/rating && sudo npm init --scope=@khajegan",
     "myBuild": "cd projects/rating &&  sudo ng b --configuration production",
     "myPublish": "cd dist/rating && npm publish --access public"
   },
